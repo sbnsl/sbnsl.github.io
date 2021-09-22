@@ -12,16 +12,14 @@
 
 
 @inproceedings{abs-2108-07884,
- abbr={WACV},
-  author    = {Ali Dabouei and
-               Sobhan Soleymani and
-               Jeremy Dawson and
-               Nasser M. Nasrabadi},
-  title     = {Fast Geometrically-Perturbed Adversarial Faces},
-  booktitle = WACV,
+ abbr={ICCV},
+  author    = {Fariborz Taherkhani and
+                Hadi Kazemi and Ali Dabouei and Jeremy Dawson and Nasser M. Nasrabadi},
+  title     = {A Weakly Supervised Fine Label Classifier Enhanced by Coarse Supervision},
+  booktitle = ICCV,
   year      = {2019},
-  arxiv       = {1809.08999},
-  abstract = {The state-of-the-art performance of deep learning algorithms has led to a considerable increase in the utilization of machine learning in security-sensitive and critical applications. However, it has recently been shown that a small and carefully crafted perturbation in the input space can completely fool a deep model. In this study, we explore the extent to which face recognition systems are vulnerable to geometrically-perturbed adversarial faces. We propose a fast landmark manipulation method for generating adversarial faces, which is approximately 200 times faster than the previous geometric attacks and obtains 99.86% success rate on the state-of-the-art face recognition models. To further force the generated samples to be natural, we introduce a second attack constrained on the semantic structure of the face which has the half speed of the first attack with the success rate of 99.96%. Both attacks are extremely robust against the state-of-the-art defense methods with the success rate of equal or greater than 53.59%.},
+  pdf       = {https://openaccess.thecvf.com/content_ICCV_2019/papers/Taherkhani_A_Weakly_Supervised_Fine_Label_Classifier_Enhanced_by_Coarse_Supervision_ICCV_2019_paper.pdf},
+  abstract = {Objects are usually organized in a hierarchical structure in which each coarse category (e.g., big cat) corresponds to a superclass of several fine categories (e.g., cheetah, leopard). The objects grouped within the same coarse category, but in different fine categories, usually share a set of global visual features; however, these objects have distinctive local properties that characterize them at a fine level. This paper addresses the challenge of fine image classification in a weakly supervised fashion, whereby a subset of images is tagged by fine labels, while the remaining are tagged by coarse labels. We propose a new deep model that leverages coarse images to improve the classification performance of fine images within the coarse category. Our model is an end to end framework consisting of a Convolutional Neural Network (CNN) which uses both fine and coarse images to tune its parameters. The CNN outputs are then fanned out into two separate branches such that the first branch uses a supervised low rank self expressive layer to project the CNN outputs to the low rank subspaces to capture the global structures for the coarse classification, while the other branch uses a supervised sparse self expressive layer to project them to the sparse subspaces to capture the local structures for the fine classification. Our deep model uses coarse images in conjunction with fine images to jointly explore the low rank and sparse subspaces by sharing the parameters during the training which causes the data points obtained by the CNN to be well-projected to both sparse and low rank subspaces for classification.},
         selected={true}
 }
 
