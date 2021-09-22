@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Graduate Research Assistant, [wvu](www.google.com) .
+description: Graduate Research Assistant, <a href="https://lcsee.statler.wvu.edu/">West virginia University</a>.
 
 profile:
   align: right
