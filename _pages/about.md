@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Graduate Research Assistant, [West Virginia University](https://lcsee.statler.wvu.edu/).
+description: Graduate Research Assistant (test), [West Virginia University](https://lcsee.statler.wvu.edu/).
 
 profile:
   align: right
