@@ -10,6 +10,29 @@
 @string{NeurIPS = {NeurIPS}}
 
 
+@inproceedings{11,
+ abbr={CVPR},
+  author    = {Ali Dabouei and Sobhan Soleymani and Fariborz Taherkhani and Nasser M. Nasrabadi},
+  title     = {SuperMix: Supervising the Mixing Data Augmentation},
+  booktitle = CVPR,
+  year      = {2021},
+  pdf       = {https://openaccess.thecvf.com/content/CVPR2021/papers/Dabouei_SuperMix_Supervising_the_Mixing_Data_Augmentation_CVPR_2021_paper.pdf},
+  code      = {https://github.com/alldbi/SuperMix},
+  abstract = {This paper presents a supervised mixing augmentation method termed SuperMix, which exploits the salient regions within input images to construct mixed training samples. SuperMix is designed to obtain mixed images rich in visual features and complying with realistic image priors. To enhance the efficiency of the algorithm, we develop a variant of the Newton iterative method, 65xfaster than gradient descent on this problem. We validate the effectiveness of SuperMix through extensive evaluations and ablation studies on two tasks of object classification and knowledge distillation. On the classification task, SuperMix provides comparable performance to the advanced augmentation methods, such as AutoAugment and RandAugment. In particular, combining SuperMix with RandAugment achieves 78.2% top-1 accuracy on ImageNet with ResNet50. On the distillation task, solely classifying images mixed using the teacher's knowledge achieves comparable performance to the state-of-the-art distillation methods. Furthermore, on average, incorporating mixed images into the distillation objective improves the performance by 3.4% and 3.1% on CIFAR-100 and ImageNet, respectively.},
+        selected={true}
+}
+
+@inproceedings{10,
+ abbr={CVPR},
+  author    = {Fariborz Taherkhani and Ali Dabouei and Sobhan Soleymani and Jeremy Dawson and Nasser M. Nasrabadi},
+  title     = {Self-Supervised Wasserstein Pseudo-Labeling for Semi-Supervised Image Classification},
+  booktitle = CVPR,
+  year      = {2021},
+  pdf       = {https://openaccess.thecvf.com/content/CVPR2021/papers/Taherkhani_Self-Supervised_Wasserstein_Pseudo-Labeling_for_Semi-Supervised_Image_Classification_CVPR_2021_paper.pdf},
+  abstract = {The goal is to use Wasserstein metric to provide pseudo labels for the unlabeled images to train a Convolutional Neural Networks (CNN) in a Semi-Supervised Learning (SSL) manner for the classification task. The basic premise in our method is that the discrepancy between two discrete empirical measures (e.g., clusters) which come from the same or similar distribution is expected to be less than the case where these measures come from completely two different distributions. In our proposed method, we first pre-train our CNN using a self-supervised learning method to make a cluster assumption on the unlabeled images. Next, inspired by the Wasserstein metric which considers the geometry of the metric space to provide a natural notion of similarity between discrete empirical measures, we leverage it to cluster the unlabeled images and then match the clusters to their similar class of labeled images to provide a pseudo label for the data within each cluster. We have evaluated and compared our method with state-of-the-art SSL methods on the standard datasets to demonstrate its effectiveness.},
+        selected={true}
+}
+
 @inproceedings{9,
  abbr={WACV},
   author    = {Sobhan Soleymani and Ali Dabouei and Fariborz Taherkhani and Jeremy Dawson and Nasser M. Nasrabadi},
