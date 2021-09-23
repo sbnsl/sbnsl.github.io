@@ -21,7 +21,7 @@ of Computer Science and Electrical Engineering](https://lcsee.statler.wvu.edu/) 
 Interests
 ----
 
-I am passionate about any ML topic, but currently, these are the specials:
+I am passionate about any ML and CV topic, but currently, these are the specials:
 
 - Adversarial ML
 - Network Compression
