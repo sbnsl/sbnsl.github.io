@@ -22,7 +22,7 @@
         {{reference}}
         {% else %}
 <!--        <div class="title">{{entry.title}}</div>-->
-        <div class="title"> <a href="url">{{entry.title}}</a> </div>
+        <div class="title"> <a href="{{entry.mainlink}}">{{entry.title}}</a> </div>
         <div class="author">
             {% for author in entry.author_array %}
             {% assign author_is_self = false %}
