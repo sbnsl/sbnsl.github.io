@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD candidate in the [Department of Computer Science and Electrical Engineering](https://lcsee.statler.wvu.edu/) at West Virginia University, working with [Prof. Nasrabadi](https://nassernasrabadi.faculty.wvu.edu/). I am interested in deep learning, machine learning (ML), mathematics, pattern recognition, and computer vision. Currently, I am studying adversarial ML, network compression, interpretable ML, and unsupervised representation learning. I am also working on applications of deep learning in computer vision and biometrics.
 
-[Curriculum vitae](assets/Dabouei_cv2.pdf)
+[Curriculum vitae](assets/Dabouei_cv3.pdf)
 
 Interests
 ----
