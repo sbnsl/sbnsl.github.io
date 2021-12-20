@@ -24,7 +24,10 @@ Interests
 
 I am passionate about any ML and CV topic, but currently, these are the specials:
 
+- Multimodal Recognition
 - Adversarial ML
+- Biometrics
+- Face Morphing
 - Network Compression
 - Interpretable ML
 - Unsupervised Learning
