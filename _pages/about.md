@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Graduate Research Assistant, <a href="https://lcsee.statler.wvu.edu/">West virginia University</a>.
+description: PostDoctoral Fellow, <a href="https://lcsee.statler.wvu.edu/">West virginia University</a>.
 
 profile:
   align: right
