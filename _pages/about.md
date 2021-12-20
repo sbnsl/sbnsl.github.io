@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-description: PostDoctoral Fellow, <a href="https://lcsee.statler.wvu.edu/">West virginia University</a>.
+description: PostDoctoral Fellow, <a href="https://lcsee.statler.wvu.edu/">West Virginia University</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   address: >
     <p>Morgantown, WV</p>
 
