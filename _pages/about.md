@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate in the [Department of Computer Science and Electrical Engineering](https://lcsee.statler.wvu.edu/) at West Virginia University, working with [Prof. Nasrabadi](https://nassernasrabadi.faculty.wvu.edu/). I am interested in deep learning, machine learning (ML), mathematics, pattern recognition, and computer vision. Currently, I am studying adversarial ML, network compression, interpretable ML, and unsupervised representation learning. I am also working on applications of deep learning in computer vision and biometrics.
+I am a Postdoctoral Fellow in the [Department of Computer Science and Electrical Engineering](https://lcsee.statler.wvu.edu/) at West Virginia University, working with [Prof. Nasrabadi](https://nassernasrabadi.faculty.wvu.edu/), where I have also received my PhD. Prior to that I recieved My MSc from [EPFL](https://www.epfl.ch/en/) working with [Prof. Martin Vetterli](https://www.epfl.ch/labs/lcav/people/martin-vetterli/) and [Prof. Yue M. Lu](https://lu.seas.harvard.edu/). I am interested in deep learning, machine learning (ML), mathematics, pattern recognition, and computer vision. Currently, I am studying adversarial ML, network compression, interpretable ML, and unsupervised representation learning. I am also working on applications of deep learning in computer vision and biometrics.
 
 [Curriculum vitae](assets/Dabouei_cv3.pdf)
 
