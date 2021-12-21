@@ -1,13 +1,28 @@
 ---
 ---
 
+@string{TBIOM = {TBIOM}}
 @string{CVPR = {CVPR}}
 @string{ICLR = {ICLR}}
 @string{ICCV = {ICCV}}
 @string{WACV = {WACV}}
-@string{BMVC = {BMVC}}
+@string{= {BMVC}}
 @string{ECCV = {ECCV}}
 @string{NeurIPS = {NeurIPS}}
+
+
+@inproceedings{12,
+ abbr={TBIOM},
+ mainlink = {https://ieeexplore.ieee.org/abstract/document/9631949},
+  img = {assets/img/supermix.jpg},
+  author    = {Sobhan Soleymani and Ali Dabouei and Fariborz Taherkhani Seyed Mehdi Iranmanesh and Jeremy Dawson and Nasser M. Nasrabadi},
+  title     = {Quality-Aware Multimodal Biometric Recognition},
+  booktitle = TBIOM,
+  year      = {2021},
+  pdf       = {https://arxiv.org/pdf/2112.05827.pdf},
+  abstract = {We present a quality-aware multimodal recognition framework that combines representations from multiple biometric traits with varying quality and number of samples to achieve increased recognition accuracy by extracting complimentary identification information based on the quality of the samples. We develop a quality-aware framework for fusing representations of input modalities by weighting their importance using quality scores estimated in a weakly-supervised fashion. This framework utilizes two fusion blocks, each represented by a set of quality-aware and aggregation networks. In addition to architecture modifications, we propose two task-specific loss functions: multimodal separability loss and multimodal compactness loss. The first loss assures that the representations of modalities for a class have comparable magnitudes to provide a better quality estimation, while the multimodal representations of different classes are distributed to achieve maximum discrimination in the embedding space. The second loss, which is considered to regularize the network weights, improves the generalization performance by regularizing the framework. We evaluate the performance by considering three multimodal datasets consisting of face, iris, and fingerprint modalities. The efficacy of the framework is demonstrated through comparison with the state-of-the-art algorithms. In particular, our framework outperforms the rank- and score-level fusion of modalities of BIOMDATA by more than 30% for true acceptance rate at false acceptance rate of 10^{-4}.},
+        selected={true}
+}
 
 
 @inproceedings{11,
@@ -73,7 +88,7 @@
   year      = {2020},
   pdf       = {https://www.bmvc2020-conference.com/assets/papers/0561.pdf},
   abstract = {We present a novel framework to exploit privileged information for recognition which is provided only during the training phase. Here, we focus on recognition task where images are provided as the main view and soft biometric traits (attributes) are provided as the privileged data (only available during training phase). We demonstrate that more discriminative feature space can be learned by enforcing a deep network to adjust adaptive margins between classes utilizing attributes. This tight constraint also effectively reduces the class imbalance inherent in the local data neighborhood, thus carving more balanced class boundaries locally and using feature space more efficiently. Extensive experiments are performed on five different datasets and the results show the superiority of our method compared to the state-of-the-art models in both tasks of face recognition and person re-identification.},
-        selected={true}
+        selected={false}
 }
 
 @inproceedings{6,
@@ -140,7 +155,7 @@
   year      = {2019},
   pdf       = {https://openaccess.thecvf.com/content_ICCV_2019/papers/Taherkhani_A_Weakly_Supervised_Fine_Label_Classifier_Enhanced_by_Coarse_Supervision_ICCV_2019_paper.pdf},
   abstract = {Objects are usually organized in a hierarchical structure in which each coarse category (e.g., big cat) corresponds to a superclass of several fine categories (e.g., cheetah, leopard). The objects grouped within the same coarse category, but in different fine categories, usually share a set of global visual features; however, these objects have distinctive local properties that characterize them at a fine level. This paper addresses the challenge of fine image classification in a weakly supervised fashion, whereby a subset of images is tagged by fine labels, while the remaining are tagged by coarse labels. We propose a new deep model that leverages coarse images to improve the classification performance of fine images within the coarse category. Our model is an end to end framework consisting of a Convolutional Neural Network (CNN) which uses both fine and coarse images to tune its parameters. The CNN outputs are then fanned out into two separate branches such that the first branch uses a supervised low rank self expressive layer to project the CNN outputs to the low rank subspaces to capture the global structures for the coarse classification, while the other branch uses a supervised sparse self expressive layer to project them to the sparse subspaces to capture the local structures for the fine classification. Our deep model uses coarse images in conjunction with fine images to jointly explore the low rank and sparse subspaces by sharing the parameters during the training which causes the data points obtained by the CNN to be well-projected to both sparse and low rank subspaces for classification.},
-        selected={true}
+        selected={false}
 }
 
 
