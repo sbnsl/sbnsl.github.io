@@ -142,16 +142,15 @@
 }
 
 @inproceedings{2,
- abbr={ICCV},
-  mainlink = {https://openaccess.thecvf.com/content_ICCV_2019/html/Taherkhani_A_Weakly_Supervised_Fine_Label_Classifier_Enhanced_by_Coarse_Supervision_ICCV_2019_paper.html},
-        img = {assets/img/f1.jpg},
-  author    = {Fariborz Taherkhani and
-                Hadi Kazemi and Ali Dabouei and Jeremy Dawson and Nasser M. Nasrabadi},
-  title     = {A Weakly Supervised Fine Label Classifier Enhanced by Coarse Supervision},
-  booktitle = ICCV,
-  year      = {2019},
-  pdf       = {https://openaccess.thecvf.com/content_ICCV_2019/papers/Taherkhani_A_Weakly_Supervised_Fine_Label_Classifier_Enhanced_by_Coarse_Supervision_ICCV_2019_paper.pdf},
-  abstract = {Objects are usually organized in a hierarchical structure in which each coarse category (e.g., big cat) corresponds to a superclass of several fine categories (e.g., cheetah, leopard). The objects grouped within the same coarse category, but in different fine categories, usually share a set of global visual features; however, these objects have distinctive local properties that characterize them at a fine level. This paper addresses the challenge of fine image classification in a weakly supervised fashion, whereby a subset of images is tagged by fine labels, while the remaining are tagged by coarse labels. We propose a new deep model that leverages coarse images to improve the classification performance of fine images within the coarse category. Our model is an end to end framework consisting of a Convolutional Neural Network (CNN) which uses both fine and coarse images to tune its parameters. The CNN outputs are then fanned out into two separate branches such that the first branch uses a supervised low rank self expressive layer to project the CNN outputs to the low rank subspaces to capture the global structures for the coarse classification, while the other branch uses a supervised sparse self expressive layer to project them to the sparse subspaces to capture the local structures for the fine classification. Our deep model uses coarse images in conjunction with fine images to jointly explore the low rank and sparse subspaces by sharing the parameters during the training which causes the data points obtained by the CNN to be well-projected to both sparse and low rank subspaces for classification.},
+ abbr={NeurIPS},
+  mainlink = {https://proceedings.neurips.cc/paper/2018/hash/c7c46d4baf816bfb07c7f3bf96d88544-Abstract.html},
+        img = {assets/img/nips2018.png},
+  author    = {Hadi Kazemi and Sobhan Soleymani and Fariborz Taherkhani and Seyed Mehdi Iranmanesh and Nasser M. Nasrabadi},
+  title     = {Unsupervised Image-to-Image Translation Using Domain-Specific Variational Information Bound},
+  booktitle = NeurIPS,
+  year      = {2018},
+  pdf       = {https://proceedings.neurips.cc/paper/2018/file/c7c46d4baf816bfb07c7f3bf96d88544-Paper.pdf},
+  abstract = {Unsupervised image-to-image translation is a class of computer vision problems which aims at modeling conditional distribution of images in the target domain, given a set of unpaired images in the source and target domains. An image in the source domain might have multiple representations in the target domain. Therefore, ambiguity in modeling of the conditional distribution arises, specially when the images in the source and target domains come from different modalities. Current approaches mostly rely on simplifying assumptions to map both domains into a shared-latent space. Consequently, they are only able to model the domain-invariant information between the two modalities. These approaches usually fail to model domain-specific information which has no representation in the target domain. In this work, we propose an unsupervised image-to-image translation framework which maximizes a domain-specific variational information bound and learns the target domain-invariant representation of the two domain. The proposed framework makes it possible to map a single source image into multiple images in the target domain, utilizing several target domain-specific codes sampled randomly from the prior distribution, or extracted from reference images.},
         selected={true}
 }
 
