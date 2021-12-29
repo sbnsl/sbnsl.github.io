@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PostDoctoral Fellow, <a href="https://lcsee.statler.wvu.edu/">West Virginia University</a>.
+description: Postdoctoral Fellow, <a href="https://lcsee.statler.wvu.edu/">West Virginia University</a>.
 
 profile:
   align: right
