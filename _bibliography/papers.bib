@@ -35,7 +35,7 @@
   booktitle = CVPR,
   year      = {2021},
   pdf       = {https://openaccess.thecvf.com/content/CVPR2021/papers/Dabouei_SuperMix_Supervising_the_Mixing_Data_Augmentation_CVPR_2021_paper.pdf},
-  code      = {https://github.com/alldbi/SuperMix},
+  code      = {https://github.com/sbnsl/SuperMix},
   abstract = {This paper presents a supervised mixing augmentation method termed SuperMix, which exploits the salient regions within input images to construct mixed training samples. SuperMix is designed to obtain mixed images rich in visual features and complying with realistic image priors. To enhance the efficiency of the algorithm, we develop a variant of the Newton iterative method, 65xfaster than gradient descent on this problem. We validate the effectiveness of SuperMix through extensive evaluations and ablation studies on two tasks of object classification and knowledge distillation. On the classification task, SuperMix provides comparable performance to the advanced augmentation methods, such as AutoAugment and RandAugment. In particular, combining SuperMix with RandAugment achieves 78.2% top-1 accuracy on ImageNet with ResNet50. On the distillation task, solely classifying images mixed using the teacher's knowledge achieves comparable performance to the state-of-the-art distillation methods. Furthermore, on average, incorporating mixed images into the distillation objective improves the performance by 3.4% and 3.1% on CIFAR-100 and ImageNet, respectively.},
         selected={true}
 }
@@ -101,7 +101,7 @@
   booktitle = WACV,
   year      = {2020},
   pdf       = {https://openaccess.thecvf.com/content_WACV_2020/papers/Dabouei_SmoothFool_An_Efficient_Framework_for_Computing_Smooth_Adversarial_Perturbations_WACV_2020_paper.pdf},
-  code      = {https://github.com/alldbi/SmoothFool},
+  code      = {https://github.com/sbnsl/SmoothFool},
   abstract = {Deep neural networks are susceptible to adversarial manipulations in the input domain. The extent of vulnerability has been explored intensively in cases of l_p-bounded and l_p-minimal adversarial perturbations. However, the vulnerability of DNNs to adversarial perturbations with specific statistical properties or frequency-domain characteristics has not been sufficiently explored. In this paper, we study the smoothness of perturbations and propose SmoothFool, a general and computationally efficient framework for computing smooth adversarial perturbations. Through extensive experiments, we validate the efficacy of the proposed method for both the white-box and black-box attack scenarios. In particular, we demonstrate that: (i) there exist extremely smooth adversarial perturbations for well-established and widely used network architectures, (ii) smoothness significantly enhances the robustness of perturbations against state-of-the-art defense mechanisms, (iii) smoothness improves the transferability of adversarial perturbations across both data points and network architectures, and (iv) class categories exhibit a variable range of susceptibility to smooth perturbations. Our results suggest that smooth APs can play a significant role in exploring the vulnerability extent of DNNs to adversarial examples..},
         selected={true}
 }
@@ -174,7 +174,7 @@
   booktitle = WACV,
   year      = {2019},
   arxiv       = {1809.08999},
-  code     =    {https://github.com/alldbi/FLM},
+  code     =    {https://github.com/sbnsl/FLM},
   abstract = {The state-of-the-art performance of deep learning algorithms has led to a considerable increase in the utilization of machine learning in security-sensitive and critical applications. However, it has recently been shown that a small and carefully crafted perturbation in the input space can completely fool a deep model. In this study, we explore the extent to which face recognition systems are vulnerable to geometrically-perturbed adversarial faces. We propose a fast landmark manipulation method for generating adversarial faces, which is approximately 200 times faster than the previous geometric attacks and obtains 99.86% success rate on the state-of-the-art face recognition models. To further force the generated samples to be natural, we introduce a second attack constrained on the semantic structure of the face which has the half speed of the first attack with the success rate of 99.96%. Both attacks are extremely robust against the state-of-the-art defense methods with the success rate of equal or greater than 53.59%.},
         selected={true}
 }
