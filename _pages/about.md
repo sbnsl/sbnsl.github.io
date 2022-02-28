@@ -28,6 +28,7 @@ I am passionate about any ML and CV topic, but currently, these are the specials
 - Adversarial ML
 - Biometrics
 - Face Morphing
+- Semi/un/self-supervised learning
 - Network Compression
 - Interpretable ML
-- Unsupervised Learning
+
