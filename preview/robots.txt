@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sbnsl.github.io/preview/sitemap.xml
