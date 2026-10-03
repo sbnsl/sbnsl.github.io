@@ -4,6 +4,70 @@
 
 // Typography
 
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.post-header .post-title {
+  font-size: 2.5rem;
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+}
+
+.post-header .desc,
+.post-description {
+  font-size: 1.3125rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+article {
+  font-size: 1rem;
+  line-height: 1.65;
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 650;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+    font-weight: 650;
+  }
+
+  h3 {
+    font-size: 1.1875rem;
+    line-height: 1.35;
+    font-weight: 600;
+  }
+
+  h4, h5, h6 {
+    font-size: 1rem;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+}
+
+.navbar {
+  font-size: 0.9375rem;
+}
+
+.navbar-brand {
+  font-size: 1.0625rem;
+}
+
 p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
