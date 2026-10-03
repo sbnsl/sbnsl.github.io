@@ -17,7 +17,7 @@ I am a **Senior Computer Vision and Machine Learning scientist** working across 
 
 **Samsung R&D · 40+ peer-reviewed publications · 1400+ citations**
 
-[Experience]({{ '/experience/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [CV]({{ '/assets/Sobhan_CV.pdf' | relative_url }}) · [LinkedIn](https://www.linkedin.com/in/sobhans) · [GitHub](https://github.com/sbnsl) · [Google Scholar](https://scholar.google.com/citations?user=83AwkccAAAAJ)
+[Experience]({{ '/experience/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [CV]({{ '/assets/Sobhan_CV.pdf' | relative_url }})
 
 ## Selected Work
 
