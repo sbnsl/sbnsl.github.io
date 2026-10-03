@@ -1,34 +1,58 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-description: Postdoctoral Fellow, <a href="https://lcsee.statler.wvu.edu/">West Virginia University</a>.
+description: Senior Computer Vision & Computational Photography Research Scientist
 
 profile:
   align: right
   image: prof_pic.png
-  address: >
-    <p>Morgantown, WV</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false
+selected_papers: false
+social: true
 ---
 
-I am a Postdoctoral Fellow in the [Department of Computer Science and Electrical Engineering](https://lcsee.statler.wvu.edu/) at West Virginia University, working with [Dr. Nasser M. Nasrabadi](https://nassernasrabadi.faculty.wvu.edu/), where I received my PhD in May 2021. Prior to that, I recieved my MSc from [EPFL](https://www.epfl.ch/en/) working with [Dr. Martin Vetterli](https://www.epfl.ch/labs/lcav/people/martin-vetterli/) and [Dr. Yue M. Lu](https://lu.seas.harvard.edu/). My broad research intrests are deep learning, machine learning (ML), pattern recognition, and computer vision. Currently, the focus of my research projects and graduate student advising is adversarial ML, network compression, interpretable ML, unsupervised representation learning and applications of deep learning in computer vision and biometrics.
+I am a **Computer Vision and Machine Learning scientist** working across multimodal learning, computational photography, edge AI, XR/VR, generative modeling, and robust vision systems. I develop and deploy real-time perception and image-enhancement systems for resource-constrained devices, combining research depth with production-focused ML engineering.
 
-[Curriculum vitae](assets/Sobhan_CV.pdf)
+**Samsung R&D · 40+ peer-reviewed publications · 1400+ citations**
 
-Interests
-----
+[Experience](/experience/) · [Projects](/projects/) · [CV](/assets/Sobhan_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/sobhans) · [GitHub](https://github.com/sbnsl) · [Google Scholar](https://scholar.google.com/citations?user=83AwkccAAAAJ)
 
-I am passionate about any ML and CV topic, but currently, these are the specials:
+## Selected Work
 
-- Multimodal Recognition
-- Adversarial ML
-- Biometrics
-- Face Morphing
-- Semi/un/self-supervised Learning
-- Network Compression
-- Interpretable ML
+### Real-Time Multimodal Interaction & XR/VR
+Real-time gesture recognition, multimodal interaction, and perception systems designed for constrained wearable and mobile platforms.
 
+### Edge AI & Production ML
+Hardware-aware model optimization, ONNX deployment, quantization, validation, and real-time inference under latency, memory, and compute constraints.
+
+### Computational Photography & Image Enhancement
+Bokeh rendering, saliency- and depth-aware imaging, camera calibration and rectification, and image dehazing/restoration.
+
+### Robust & Generative Vision
+Adversarial robustness, biometric security, morph detection, image-to-image translation, and generative visual modeling.
+
+[Explore projects →](/projects/)
+
+## Experience
+
+### Samsung R&D
+**Senior Computer Vision & Computational Photography Research Scientist · 2022–Present**
+
+Research and development across real-time multimodal interaction, edge AI, computational photography, camera geometry, and image restoration, with an emphasis on reliable deployment under real-world device constraints.
+
+[View experience →](/experience/)
+
+## Research
+
+My research record spans multimodal representation learning, biometrics, semi-supervised learning, generative models, and adversarial robustness, with publications in venues including **NeurIPS, CVPR, ECCV, TBIOM, and WACV**.
+
+[Selected publications →](/publications/) · [Google Scholar →](https://scholar.google.com/citations?user=83AwkccAAAAJ)
+
+## Public Patents
+
+- **Systems and Methods for Multi-Modal Interaction Analysis** — Granted, 2026
+- **Modular Pipeline for High-Fidelity Hand-Arm Motion Synthesis and Multi-View Rendering** — Published, 2025
+- **System and Method for Static and Dynamic Real-time Hand Gesture Recognition** — Published, 2025
+- **Generative Adversarial Networks for Transformer-Based Dehazing** — Published, 2025
