@@ -28,4 +28,4 @@ Thesis: *Tomographic Field Reconstruction Using a Mobile Sensor Network*
 
 ## Links
 
-[LinkedIn](https://www.linkedin.com/in/sobhans) · [GitHub](https://github.com/sbnsl) · [Google Scholar](https://scholar.google.com/citations?user=83AwkccAAAAJ) · [CV](/assets/Sobhan_CV.pdf)
+[LinkedIn](https://www.linkedin.com/in/sobhans) · [GitHub](https://github.com/sbnsl) · [Google Scholar](https://scholar.google.com/citations?user=83AwkccAAAAJ) · [CV]({{ '/assets/Sobhan_CV.pdf' | relative_url }})
