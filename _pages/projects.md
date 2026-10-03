@@ -6,32 +6,26 @@ permalink: /projects/
 
 # Technical Portfolio
 
-My work spans research and production-oriented Computer Vision and Machine Learning, with emphasis on systems that must operate reliably under real-world constraints.
+Selected themes from my work in research and production-oriented Computer Vision and Machine Learning.
 
 ## Real-Time Multimodal Interaction & XR/VR
-Real-time gesture recognition, multimodal interaction, hand pose and motion understanding, and perception for wearable and XR/VR platforms.
-
-**Focus:** multimodal learning · gesture recognition · human-computer interaction · wearable AI · real-time perception
+Real-time gesture recognition and multimodal interaction for wearable and XR/VR platforms, including hand pose, motion understanding, and perception under deployment constraints.
 
 ## Edge AI & Production ML
-Deployment and optimization of deep learning models for resource-constrained devices, including ONNX conversion, quantization, hardware-aware optimization, testing, and validation.
-
-**Focus:** real-time inference · ONNX · quantization · latency/memory/compute constraints · deployment validation
+Optimization and deployment of deep learning models for constrained devices, including ONNX conversion, quantization, hardware-aware optimization, testing, and validation.
 
 ## Computational Photography & Image Enhancement
-Methods for bokeh rendering, saliency- and depth-aware image processing, camera calibration and rectification, image restoration, and dehazing.
-
-**Focus:** bokeh rendering · depth estimation · saliency · calibration · rectification · image restoration
+Bokeh rendering, saliency- and depth-aware imaging, camera calibration and rectification, image restoration, and dehazing for real-world imaging systems.
 
 ## Multimodal Biometrics & Representation Learning
-Multimodal and multi-sample biometric recognition using quality-aware fusion, attention, disentangled representations, and cross-modal learning.
+Multimodal and multi-sample recognition using quality-aware fusion, attention, disentangled representations, and cross-modal learning.
 
-**Focus:** multimodal fusion · representation learning · quality-aware fusion · biometrics · cross-modal learning
+Representative public work: [Quality-Aware Multimodal Biometric Recognition](https://ieeexplore.ieee.org/abstract/document/9631949) · [Multi-Level Feature Abstraction from CNNs for Multimodal Biometric Identification](https://ieeexplore.ieee.org/abstract/document/8545061)
 
 ## Robust & Generative Vision
-Research on adversarial robustness, face morph detection, image-to-image translation, sketch-to-photo synthesis, and semi-supervised learning.
+Adversarial robustness, face morph detection, image-to-image translation, sketch-to-photo synthesis, and semi-supervised learning.
 
-**Focus:** adversarial ML · morph detection · generative modeling · image-to-image translation · semi-supervised learning
+Representative public work: [SmoothFool](https://openaccess.thecvf.com/content_WACV_2020/html/Dabouei_SmoothFool_An_Efficient_Framework_for_Computing_Smooth_Adversarial_Perturbations_WACV_2020_paper.html) ([code](https://github.com/sbnsl/SmoothFool)) · [Fast Geometrically-Perturbed Adversarial Faces](https://arxiv.org/pdf/1809.08999.pdf) ([code](https://github.com/sbnsl/FLM)) · [Unsupervised Image-to-Image Translation](https://proceedings.neurips.cc/paper/2018/hash/c7c46d4baf816bfb07c7f3bf96d88544-Abstract.html)
 
 ## Public Patents
 
