@@ -17,7 +17,7 @@ I am a **Computer Vision and Machine Learning scientist** working across multimo
 
 **Samsung R&D · 40+ peer-reviewed publications · 1400+ citations**
 
-[Experience](/experience/) · [Projects](/projects/) · [CV](/assets/Sobhan_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/sobhans) · [GitHub](https://github.com/sbnsl) · [Google Scholar](https://scholar.google.com/citations?user=83AwkccAAAAJ)
+[Experience]({{ '/experience/' | relative_url }}) · [Projects]({{ '/projects/' | relative_url }}) · [CV]({{ '/assets/Sobhan_CV.pdf' | relative_url }}) · [LinkedIn](https://www.linkedin.com/in/sobhans) · [GitHub](https://github.com/sbnsl) · [Google Scholar](https://scholar.google.com/citations?user=83AwkccAAAAJ)
 
 ## Selected Work
 
@@ -33,7 +33,7 @@ Bokeh rendering, saliency- and depth-aware imaging, camera calibration and recti
 ### Robust & Generative Vision
 Adversarial robustness, biometric security, morph detection, image-to-image translation, and generative visual modeling.
 
-[Explore projects →](/projects/)
+[Explore projects →]({{ '/projects/' | relative_url }})
 
 ## Experience
 
@@ -42,13 +42,13 @@ Adversarial robustness, biometric security, morph detection, image-to-image tran
 
 Research and development across real-time multimodal interaction, edge AI, computational photography, camera geometry, and image restoration, with an emphasis on reliable deployment under real-world device constraints.
 
-[View experience →](/experience/)
+[View experience →]({{ '/experience/' | relative_url }})
 
 ## Research
 
 My research record spans multimodal representation learning, biometrics, semi-supervised learning, generative models, and adversarial robustness, with publications in venues including **NeurIPS, CVPR, ECCV, TBIOM, and WACV**.
 
-[Selected publications →](/publications/) · [Google Scholar →](https://scholar.google.com/citations?user=83AwkccAAAAJ)
+[Selected publications →]({{ '/publications/' | relative_url }}) · [Google Scholar →](https://scholar.google.com/citations?user=83AwkccAAAAJ)
 
 ## Public Patents
 
