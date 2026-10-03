@@ -38,13 +38,6 @@ jobs:
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
 
-      - name: Install privacy-safe CV
-        working-directory: source
-        run: |
-          base64 --decode .cv-upload.b64 > assets/Sobhan_CV.pdf
-          test "$(wc -c < assets/Sobhan_CV.pdf)" -eq 37362
-          test "$(sha256sum assets/Sobhan_CV.pdf | cut -d' ' -f1)" = "b5e6d0839af1883605e5acd5dd8dc807ce4cf357b390c9c5a58ad3b22a1cba7f"
-
       - name: Build preview
         working-directory: source
         run: bundle exec jekyll build --baseurl "/preview" --destination _site
