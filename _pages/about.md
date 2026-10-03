@@ -13,7 +13,7 @@ selected_papers: false
 social: true
 ---
 
-I am a **Computer Vision and Machine Learning scientist** working across multimodal learning, computational photography, edge AI, XR/VR, generative modeling, and robust vision systems. I develop and deploy real-time perception and image-enhancement systems for resource-constrained devices, combining research depth with production-focused ML engineering.
+I am a **Senior Computer Vision and Machine Learning scientist** working across multimodal perception, computational photography, edge AI, and XR/VR. I develop and deploy real-time vision systems for resource-constrained devices, combining research depth with production ML engineering.
 
 **Samsung R&D · 40+ peer-reviewed publications · 1400+ citations**
 
@@ -22,37 +22,29 @@ I am a **Computer Vision and Machine Learning scientist** working across multimo
 ## Selected Work
 
 ### Real-Time Multimodal Interaction & XR/VR
-Real-time gesture recognition, multimodal interaction, and perception systems designed for constrained wearable and mobile platforms.
+Gesture recognition and multimodal perception for wearable and XR/VR platforms.
 
 ### Edge AI & Production ML
-Hardware-aware model optimization, ONNX deployment, quantization, validation, and real-time inference under latency, memory, and compute constraints.
+Hardware-aware optimization and reliable deployment under latency, memory, and compute constraints.
 
 ### Computational Photography & Image Enhancement
-Bokeh rendering, saliency- and depth-aware imaging, camera calibration and rectification, and image dehazing/restoration.
+Bokeh rendering, camera geometry, image restoration, and dehazing.
 
 ### Robust & Generative Vision
-Adversarial robustness, biometric security, morph detection, image-to-image translation, and generative visual modeling.
+Adversarial robustness, biometric security, morph detection, and generative vision.
 
 [Explore projects →]({{ '/projects/' | relative_url }})
 
-## Experience
+## Current Role
 
-### Samsung R&D
-**Senior Computer Vision & Computational Photography Research Scientist · 2022–Present**
+**Samsung R&D — Senior Computer Vision & Computational Photography Research Scientist · 2022–Present**
 
-Research and development across real-time multimodal interaction, edge AI, computational photography, camera geometry, and image restoration, with an emphasis on reliable deployment under real-world device constraints.
+Research and development across real-time multimodal interaction, edge AI, computational photography, camera geometry, and image restoration.
 
 [View experience →]({{ '/experience/' | relative_url }})
 
-## Research
+## Research & Innovation
 
-My research record spans multimodal representation learning, biometrics, semi-supervised learning, generative models, and adversarial robustness, with publications in venues including **NeurIPS, CVPR, ECCV, TBIOM, and WACV**.
+Selected research spans multimodal learning, generative vision, biometrics, semi-supervised learning, and adversarial robustness. I am also an inventor on public patents in multimodal interaction, gesture recognition, and image restoration.
 
-[Selected publications →]({{ '/publications/' | relative_url }}) · [Google Scholar →](https://scholar.google.com/citations?user=83AwkccAAAAJ)
-
-## Public Patents
-
-- **Systems and Methods for Multi-Modal Interaction Analysis** — Granted, 2026
-- **Modular Pipeline for High-Fidelity Hand-Arm Motion Synthesis and Multi-View Rendering** — Published, 2025
-- **System and Method for Static and Dynamic Real-time Hand Gesture Recognition** — Published, 2025
-- **Generative Adversarial Networks for Transformer-Based Dehazing** — Published, 2025
+[Selected publications →]({{ '/publications/' | relative_url }}) · [Public patents →]({{ '/projects/' | relative_url }}#public-patents)
