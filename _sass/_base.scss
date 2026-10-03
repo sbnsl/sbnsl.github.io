@@ -131,10 +131,21 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 26%;
+    max-width: 190px;
+    margin-left: 1.5rem;
+
     .address {
       p { display: block; }
     }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .profile {
+    float: none !important;
+    width: 150px;
+    margin: 0 auto 1.25rem;
   }
 }
 
@@ -268,8 +279,22 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.65rem;
+    margin-top: 0.75rem;
+
     a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+
+      i {
+        font-size: 1.65rem;
+      }
+
       i::before {
         color: var(--global-text-color);
         -webkit-transition: all 0.2s ease-in-out;
