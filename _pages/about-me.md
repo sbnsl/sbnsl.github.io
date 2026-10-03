@@ -6,9 +6,7 @@ permalink: /about/
 
 # About
 
-I am a Computer Vision and Machine Learning scientist with experience spanning academic research and production-oriented ML systems. My current work at Samsung R&D focuses on computer vision, computational photography, multimodal interaction, and edge AI for resource-constrained platforms.
-
-Before joining Samsung, I was a Postdoctoral Fellow and Research Assistant at West Virginia University, where my research covered multimodal biometrics, adversarial robustness, generative vision, morph detection, semi-supervised learning, and representation learning.
+My career spans academic Computer Vision and Machine Learning research and production-oriented ML systems. After completing my Ph.D. and postdoctoral research at West Virginia University, I joined Samsung R&D in 2022, where I work on computer vision, computational photography, multimodal interaction, and edge AI for resource-constrained platforms.
 
 ## Education
 
