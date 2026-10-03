@@ -1,0 +1,68 @@
+name: Deploy Preview
+
+on:
+  push:
+    branches:
+      - website-redesign
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: website-preview
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout redesign source
+        uses: actions/checkout@v4
+        with:
+          ref: website-redesign
+          path: source
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+          working-directory: source
+
+      - name: Install dependencies
+        working-directory: source
+        run: |
+          gem install bundler
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+
+      - name: Build preview
+        working-directory: source
+        run: bundle exec jekyll build --baseurl "/preview" --destination _site
+
+      - name: Checkout published site
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: publish
+
+      - name: Replace preview only
+        run: |
+          rm -rf publish/preview
+          mkdir -p publish/preview
+          cp -a source/_site/. publish/preview/
+
+      - name: Publish preview
+        working-directory: publish
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add preview
+          if git diff --cached --quiet; then
+            echo "No preview changes to publish."
+            exit 0
+          fi
+          git commit -m "Update website redesign preview"
+          git push origin gh-pages
